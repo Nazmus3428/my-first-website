@@ -4,13 +4,32 @@
 }
 .container h1 {
   color: teal;
-  background-color: beige;
+  background-color: rgb(46, 46, 44);
+  width: 100%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   text-decoration: underline dotted tomato;
 
-  padding: 10px 0px 10px 0px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 5px 0px 10px 0px;
+  margin-bottom: 10px;
+  position:fixed;
+  margin-left: 0px;
+  margin-top: -70px;
+
+
+}
+
+.container .allDiv div{
+    background-color: brown;
+    margin-left: 30px;
+    margin-bottom:20px;
+    text-align: justify;
+    padding: 10px;
+    width: 300px;
+    display: inline-block;
+}
+
+.container .allDiv{
+margin-top: 70px;
 
 }
